@@ -1,7 +1,7 @@
 #include "FastLED.h"
 
 // How many leds in your strip?
-#define NUM_LEDS 60
+#define NUM_LEDS 130
 #define TRAIL    220
 
 // For led chips like Neopixels, which have a data line, ground, and power, you just
@@ -21,7 +21,7 @@ void setup() {
       // FastLED.addLeds<WS2811, DATA_PIN, RGB>(leds, NUM_LEDS);
       // FastLED.addLeds<WS2812, DATA_PIN, RGB>(leds, NUM_LEDS);
                                         //RGB
-      FastLED.addLeds<WS2812B, DATA_PIN, GRB>(leds, NUM_LEDS);
+      //FastLED.addLeds<WS2812B, DATA_PIN, GRB>(leds, NUM_LEDS);
       //FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
       // FastLED.addLeds<APA104, DATA_PIN, RGB>(leds, NUM_LEDS);
       // FastLED.addLeds<UCS1903, DATA_PIN, RGB>(leds, NUM_LEDS);
